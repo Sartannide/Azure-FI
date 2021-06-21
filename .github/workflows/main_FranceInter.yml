@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.6'
+        python-version: '3.9'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'FranceInter'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_041f48e3b1ac4f1d9f3cb1feb4e605b3 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_4c9784232533458b91bdef74e940e832 }}
