@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello():
+def home():
     return 'Le port du masque est obligatoire, toute personne ne portant pas de masque se verra oblitere !'
